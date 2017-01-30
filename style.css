@@ -1,0 +1,11 @@
+header{
+	z-index: -1
+	max-height: 205px;
+	max-width: auto;
+	background-color: gray;
+}
+#logo{
+color:white;
+float:right;
+margin-right: 70%;
+}
