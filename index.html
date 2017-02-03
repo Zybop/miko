@@ -1,9 +1,75 @@
-<!DOCTYPE>
-<html>
+<!DOCTYPE html>
+<html lang="nb">
 	<head>
-		 <meta charset="utf-8">
+		<title>Miko</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-	<body>
-		<h1>Masahiko Rokuro</h1>
+	<body class="w3-white">
+		<!-- Icon Bar (Sidenav - hidden on small screens) -->
+		<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+		  <img src="bilder/miko2.png" style="width:100%" alt="bilde av hunden">
+		  <a class="w3-padding-large w3-hover-black" href="index.html">
+			<i class="fa fa-home w3-xxlarge"></i>
+			<p>HJEM</p>
+		  </a>
+		  <a class="w3-padding-large w3-hover-black" href="ommeg.html">
+			<i class="fa fa-user w3-xxlarge"></i>
+			<p>OM MEG</p>
+		  </a>
+		  <a class="w3-padding-large w3-hover-black" href="galleri.html">
+			<i class="fa fa-eye w3-xxlarge"></i>
+			<p>GALLERI</p>
+		  </a>
+		   <a class="w3-padding-large w3-hover-black" href="eier.html">
+			<i class="fa fa-users w3-xxlarge"></i>
+			<p>EIER</p>
+		  </a>
+		  <a class="w3-padding-large w3-hover-black" href="kontaktmeg.html">
+			<i class="fa fa-envelope w3-xxlarge"></i>
+			<p>KONTAKT MEG</p>
+		  </a>
+		</nav>
+
+		<!-- Navbar on small screens (Hidden on medium and large screens) -->
+		<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+		  <ul class="w3-navbar w3-white w3-opacity w3-hover-opacity-off w3-center w3-small">
+			<li class="w3-left" style="width:25% !important"><a href="index.html">Hjem</a></li>
+			<li class="w3-left" style="width:25% !important"><a href="ommeg.html">Om meg</a></li>
+			<li class="w3-left" style="width:25% !important"><a href="galleri.html">Galleri</a></li>
+			<li class="w3-left" style="width:25% !important"><a href="eier.html">Eier</a></li>
+			<li class="w3-left" style="width:25% !important"><a href="kontaktmeg.html">Kontakt</a></li>
+		  </ul>
+		</div>
+
+		<!-- Page Content -->
+		<div class="w3-padding-large" id="main">
+		  <!-- Header/Home -->
+		  <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
+			<h1 class="w3-jumbo"><span class="w3-hide-small">Jeg er</span> Miko.</h1>
+			<p>Masahiko Rokuro</p>
+			<img src="bilder/logo.png" alt="hund" class="w3-image" width="492" height="608">
+		  </header>
+		</div>
+		  
+
+	
+		<!-- Footer -->
+		  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+			<i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+			<a href="https://www.instagram.com/mikospitz/" target="blank">
+				<i class="fa fa-instagram w3-hover-text-purple"></i>
+			</a>
+			<a><i class="fa fa-snapchat w3-hover-text-yellow"></i></a>
+			<i class="fa fa-pinterest-p w3-hover-text-red"></i>
+			<p class="footertext">Laget av: Stian Natland<br><br>innholdet er beskyttet i hht til norsk lov om opphavsrett, Åndsverkloven.<br>Oppdatert: 01.02.17</p> 
+		<!-- End footer -->
+		  </footer>
+
+		<!-- END PAGE CONTENT -->
 	</body>
 </html>
