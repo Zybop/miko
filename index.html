@@ -4,72 +4,207 @@
 		<title>Miko</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-	<body class="w3-white">
+	<body class="white">
 		<!-- Icon Bar (Sidenav - hidden on small screens) -->
-		<nav class="w3-sidenav w3-center w3-small w3-hide-small">
-		  <img src="bilder/miko2.png" style="width:100%" alt="bilde av hunden">
-		  <a class="w3-padding-large w3-hover-black" href="index.html">
-			<i class="fa fa-home w3-xxlarge"></i>
+		<nav class="sidenav center small hide-small roundpicnav">
+                  <!-- Avatar image in top left corner -->
+		  <img src="bilder/miko2.png" alt="bilde av hunden">
+                  <!-- Image links left side -->
+		  <a class="padding-large hover-black" href="index.html">
+			<i class="fa fa-home xxlarge"></i>
 			<p>HJEM</p>
 		  </a>
-		  <a class="w3-padding-large w3-hover-black" href="ommeg.html">
-			<i class="fa fa-user w3-xxlarge"></i>
-			<p>OM MEG</p>
+		  <a class="padding-large hover-black" href="rase.html">
+			<i class="fa fa-user xxlarge"></i>
+                        <p>JAPANSK<br> SPISSHUND</p>
 		  </a>
-		  <a class="w3-padding-large w3-hover-black" href="galleri.html">
-			<i class="fa fa-eye w3-xxlarge"></i>
+		  <a class="padding-large hover-black" href="galleri.html">
+			<i class="fa fa-camera-retro xxlarge"></i>
 			<p>GALLERI</p>
 		  </a>
-		   <a class="w3-padding-large w3-hover-black" href="eier.html">
-			<i class="fa fa-users w3-xxlarge"></i>
+		   <a class="padding-large hover-black" href="eier.html">
+			<i class="fa fa-users xxlarge"></i>
 			<p>EIER</p>
 		  </a>
-		  <a class="w3-padding-large w3-hover-black" href="kontaktmeg.html">
-			<i class="fa fa-envelope w3-xxlarge"></i>
+                  <a class="padding-large hover-black" href="events.html">
+			<i class="fa fa-calendar xxlarge"></i>
+			<p>EVENTS</p>
+		  </a>
+		  <a class="padding-large hover-black" href="kontaktmeg.html">
+			<i class="fa fa-envelope xxlarge"></i>
 			<p>KONTAKT MEG</p>
 		  </a>
 		</nav>
 
 		<!-- Navbar on small screens (Hidden on medium and large screens) -->
-		<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-		  <ul class="w3-navbar w3-white w3-opacity w3-hover-opacity-off w3-center w3-small">
-			<li class="w3-left" style="width:25% !important"><a href="index.html">Hjem</a></li>
-			<li class="w3-left" style="width:25% !important"><a href="ommeg.html">Om meg</a></li>
-			<li class="w3-left" style="width:25% !important"><a href="galleri.html">Galleri</a></li>
-			<li class="w3-left" style="width:25% !important"><a href="eier.html">Eier</a></li>
-			<li class="w3-left" style="width:25% !important"><a href="kontaktmeg.html">Kontakt</a></li>
-		  </ul>
-		</div>
+	
+                <ul class="hide-large hide-medium">  
+                        <li class="dropnav">
+                            <a href="javascript:void(0)" class="menybtn"><i class="fa fa-bars xxlarge"> </i></a>
+                            <div class="dropnav-content">
+                            <a href="index.html">Hjem</a>
+                            <a href="rase.html">Japansk Spisshund</a>
+                            <a href="galleri.html">Galleri</a>
+                            <a href="eier.html">Eier</a>
+                            <a href="kontaktmeg.html">Kontakt</a>
+                            <a href="events.html">Events</a>
+                            </div>
+                        </li>
+		</ul>
 
+                
 		<!-- Page Content -->
-		<div class="w3-padding-large" id="main">
+		<div class="padding-large" id="main">
 		  <!-- Header/Home -->
-		  <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
-			<h1 class="w3-jumbo"><span class="w3-hide-small">Jeg er</span> Miko.</h1>
-			<p>Masahiko Rokuro</p>
-			<img src="bilder/logo.png" alt="hund" class="w3-image" width="492" height="608">
+		  <header class="container padding-32 center white" id="home">
+			<h1 class="jumbo"><span class="hide-small">Jeg er</span> Miko.</h1>
+
+			<img src="bilder/logo.png" alt="hund" class="image" width="496" height="608">
 		  </header>
 		</div>
-		  
-
-	
-		<!-- Footer -->
-		  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-			<i class="fa fa-facebook-official w3-hover-text-indigo"></i>
-			<a href="https://www.instagram.com/mikospitz/" target="blank">
-				<i class="fa fa-instagram w3-hover-text-purple"></i>
-			</a>
-			<a><i class="fa fa-snapchat w3-hover-text-yellow"></i></a>
-			<i class="fa fa-pinterest-p w3-hover-text-red"></i>
-			<p class="footertext">Laget av: Stian Natland<br><br>innholdet er beskyttet i hht til norsk lov om opphavsrett, Åndsverkloven.<br>Oppdatert: 01.02.17</p> 
+		
+		<!--About Section-->
+		<section class="content justify text-grey padding-32" id="about">
+			<h2 class="text-dark-grey">Info</h2>
+                            <div class="row center padding-16 section light-grey margin-bottom">
+                                 <a href="https://shigemikennel.blogspot.no/" class="quarter section nodec" target="blank">
+                                      <span class="xlarge">Shigemi</span><br>
+                                     Kennel
+                                </a>
+                                <div class="quarter section">
+                                      <span class="xlarge">2 år</span><br>
+                                      Alder
+                                </div>
+                                <div class="quarter section">
+                                      <span class="xlarge">4</span><br>
+                                      Utstillinger
+                                </div>
+                                <a href="https://www.instagram.com/mikospitz/" class="quarter section nodec" target="blank">
+                                      <span class="xlarge">2000+</span><br>
+                                      Instagram følgere
+                                </a>                                
+                            </div>
+                </section>
+                <section class="content clear">
+                    <h2 class="padding-16">Om Miko</h2>
+                    <ul>
+                        <li><span class="ingress">Født: </span> 19.04.2015</li>
+                        <li><span class="ingress">Rase: </span> Japansk Spisshund</li>
+                        <li><span class="ingress">Navn: </span> Shigemi's Masahiko Rokuro Bi </li>
+                        <li><span class="ingress">Stamtavle: </span> <a href="stamtavle.html" class="padding-0 text-indigo hover-text-purple" target="blank" role="button">Klikk her!</a>
+                    </ul>
+                    <article>                        
+                    <figure class="slimimage padding-16" >
+                        <img src="bilder/mikobryggeslim.jpg"  alt="bilde av hunden">
+                        <figcaption><span class="ingress">Ut på tur: </span>Miko elsker å gå langs vannet!</figcaption>
+                    </figure>
+                        <h4>Oppveksten</h4>
+                        <p>
+                            Miko ble født i Bergen den 19.04.2015.
+                            Hans fulle navn, også kalt kennelnavn, er Shigemi’s Masahiko Rokuro bi.
+                            Han kommer fra kull nummer to hos Shigemi kennel. Han har tre brødre fra samme kull.
+                            Rasen hans er japansk spisshund, som er kjent for å være helt hvite og med mye pels.
+                            Dette vet vi at stemmer ettersom at Miko ofte får komplimenter for hvor ren og fin han er, og de fleste syns det er artig å lære at rasen har selvrensende pels.
+                            Miko flyttet til Ålesund med sine mennesker sommeren 2015.
+                            Han falt til ro i huset raskt og ting som burtrening, hjemme-alene-trening og å lære seg å bli husrein var ingen problemer.
+                        </p>
+                        <p>
+                            Helt fra begynnelsen av var Miko en skeptisk type og alt av mennesker og dyr var skumle. Spesielt barn syns han var rare skapninger som helst ikke skulle være borti han.
+                            Som den hunden han er så elsker han å jage katter, og er også en varsler. Det vil si at han alltid passer på huset og hagen sin, han bjeffer på alle som går forbi for å fortelle at her bor han. Det beste Miko vet er å være ute på tur. Han er et vanedyr og blir rastløs og pipete om vi ikke går tur etter vi har spist middag.
+                            Han liker også å stå opp tidlig i helgene for å gå tur. <br><br>
+                        </p>                        
+                    </article>
+                    <article class="clear">                        
+                        <figure class="slimimage padding-16">
+                            <img src="bilder/utstillingslim.jpg"  alt="bilde av hunden">
+                            <figcaption><span class="ingress">Første utstilling: </span>vant mange sløyfer!</figcaption>
+                        </figure>
+                        <h4>Utstilling</h4>
+                        <p>
+                            Miko er en velproporsjonert hund med en fantastisk pels og et rolig og herlig vesen. Men i motsetning til rasen og søsknene sine, utviklet Miko lyse brune øyne etterhvert som han ble eldre. Dette gjør at dommerne av og til gir han minuspoeng når vi stiller han ut.
+                            Hittil har han fått både svært gode og litt mindre gode bedømmelser.
+                            De litt mindre gode bedømmelsene har handlet om at øynene er lysere enn rasens standard.
+                            Uansett tilbakemelding fra dommerne, så koser Miko seg på utstilling. Der får vi møte mange nye hunder og han får spise så mye snacks han bare har lyst på. <br><br>
+                        </p>
+                    </article>
+                    <article class="clear">
+                        
+                        <figure class="slimimage padding-16">
+                            <img src="bilder/fonetslim.jpg"  alt="bilde av som blir fønet">
+                            <figcaption><span class="ingress">Etter vask: </span>Han liker å bli fønet!</figcaption>
+                        </figure>
+                        <h4>Stell</h4>
+                        <p>
+                            Det er viktig å stelle Miko fordi han både har vært og skal fortsatt være med i utstillinger.
+                            Utstilling av hunder er i all hovedsak en hobby der man møter likesinnede som eier samme rasehund som deg selv. Det er også en fin mulighet til å finne ut om din hund er god i forhold til rasens standard.
+                            Miko er ikke så veldig glad i bading og stell. Han er heller ikke så spesielt glad i å klippe klørne sine. En ting liker han godt, nemlig å bli fønet. Når vi føner han etter et bad kan han sovne i sittende stilling og nyte det hele.
+                        </p>
+                    </article>
+                    <article>
+                        <figure class="padding-16 slimimage">
+                            <img src="bilder/mikkko.jpg" alt="bilde av hunden"> 
+                            <figcaption><span class="ingress">Profil: </span>Dobbel Miko!</figcaption>
+                        </figure>
+                        <h4>Triks</h4>
+                        <p>
+                            Miko er en smart hund som har lært veldig raskt helt siden vi fikk han.
+                            Han kan de mest vanlige triksene som sitt, dekk, bli, kom og high five.
+                            Vi har også lært han å stå, stå fint, se på meg og gå på plass. Dette er fordi vi bruker disse kommandoene når vi stiller han ut. Det har også vært viktig å øve på å stå stille oppå et bord, la fremmede ta på han og å få lov til å sjekke tennene og ørene hans.
+                            Det eneste trikset vi ikke har klart å mestre er å rulle rundt. Dette er fordi Miko ikke er noe glad å ligge på ryggen.
+                        </p>
+                    </article>
+                    <article>
+                        <figure class="padding-16 slimimage">
+                            <img src="bilder/mikomedbror.jpg" alt="bilde av Miko og broren"> 
+                            <figcaption><span class="ingress">Søskenkjærlighet: </span>Det er gøy å leke!</figcaption>
+                        </figure>
+                        <h4>Omgangskrets</h4>
+                        <p>
+                            Miko er kjempe glad i å møte nye hunder og vi bruker ofte å dra i hundeparken i Ålesund på søndager. I en hundeflokk er Miko rolig, men han liker å megle om det skulle oppstå krangler mellom noen av de andre hundene.
+                            Ellers møter vi av og til den ene broren til Miko, Quattro, som også bor i Ålesund.
+                            De krangler som de fleste søsken gjør, men er veldig glad i å leke sammen.
+                        </p>
+                    </article>                    
+                </section>
+		
+                <!-- Link Buttons-->
+                <section>
+                    <h3 class="content padding-12">Link til andre sider: </h3>
+                    <div class="content center padding-12">
+                        <a href="https://shigemikennel.blogspot.no/"  class="button" target="blank" role="button">Shigemi Kennel</a>
+                        <a href="http://www.japansk-spisshund.net/NO/" class="button" target="blank" role="button">Japansk Spisshund Norge</a>
+                        <a href="http://www.nkk.no/" class="button" target="blank" role="button">NKK</a>
+                    </div>
+                </section>
+                <!-- End of Link Buttons-->
+		<!-- End About Section -->
+                <!-- Footer --> 
+		  <footer class="content padding-64 text-grey xlarge">
+			<i class="fa fa-facebook-official hover-text-indigo"></i>
+			<a href="https://www.instagram.com/mikospitz/" target="blank"><i class="fa fa-instagram hover-text-purple"></i></a>
+			<a><i class="fa fa-snapchat hover-text-yellow"></i></a>
+			<i class="fa fa-pinterest-p hover-text-red"></i>
+			<p class="footertext">Laget av: Stian Natland<br><br>© innholdet er beskyttet i hht til norsk lov om opphavsrett, Åndsverkloven.<br>
+                    <script language="javascript"> 
+                        months = ['Januar', 'Februar', 'Mars', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Desember']; 
+                        var d=new Date();
+                        var weekday=new Array(7); weekday=['Søndag','Mandag','Tirsdag','Onsdag','Torsdag','Fredag','Lørdag'];
+                        var d = new Date(); 
+                        (d.getFullYear());
+                        var theDate = new Date(document.lastModified); 
+                        theDate.setTime((theDate.getTime()+(60*60)) ) 
+                        with (theDate) { 
+                        document.write("<i>Oppdatert: "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' \n\
+                        '+d.getFullYear()+"</i>");
+                        } 
+                    </script>                    
+                        </p> 
 		<!-- End footer -->
 		  </footer>
-
 		<!-- END PAGE CONTENT -->
 	</body>
 </html>
