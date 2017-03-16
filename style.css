@@ -55,7 +55,7 @@ figcaption{
     margin: -25px 0 16px -45px;
     line-height: 16px;
     padding-left: 5px;
-    
+
 }
 h1,h2,h3,h4,h5,h6{
     font-family:"Segoe UI",Arial,sans-serif;
@@ -70,19 +70,19 @@ h5{font-size:18px}
 h6{font-size:16px}
 a{color:inherit}
 .footertext {
-font-size:10px;	
+    font-size:10px;	
 }
 
 .row{
-width: 95%;
-display:inline-block;
-clear:both;
+    width: 95%;
+    display:inline-block;
+    clear:both;
 }
 .row-padding img {
-	margin-bottom: 12px
+    margin-bottom: 12px
 }
 .row-padding{
-	margin:0 -16px
+    margin:0 -16px
 }
 svg:not(:root){
     overflow:hidden;
@@ -93,7 +93,7 @@ svg:not(:root){
 }
 /* Set the width of the sidenav to 120px */
 .sidenav {
-	width: 120px;background: white;
+    width: 120px;background: white;
 }
 
 /*Kilder*/
@@ -111,7 +111,7 @@ svg:not(:root){
     box-shadow: 0 6px #999;
     border: none;
     border-radius: 15px;
-        
+
 }
 .button :link{
     text-decoration:none;
@@ -128,7 +128,7 @@ svg:not(:root){
 }
 section div a{
     background-color: whitesmoke;
-    
+
 
 }
 
@@ -172,10 +172,10 @@ section div a{
     clear: both;
 }
 .floatleft{
-  float: left;  
+    float: left;  
 }
 .floatright{
-  float: right;  
+    float: right;  
 }
 .white,.hover-white:hover{
     color:#000!important;
@@ -283,7 +283,7 @@ li.dropnav {
     padding:0 8px;}
 
 .widthpic{
-   width: 95%; 
+    width: 95%; 
 }
 .squarepic{
     width: 50%;
@@ -292,21 +292,21 @@ li.dropnav {
 
 /*Scroll to top of page*/
 #ScrollToTop{
-background: #f1f1f1!important;
-border: 2px solid #c8c8c8; 
-border-radius: 10px 10px 0px 0px; 
-position: fixed; 
-bottom: -2px; 
-width: 120px; 
-font-weight: bold;  
-text-align: center; 
-font-family: Calibri; 
-font-size: 12px; 
-cursor: pointer; 
-padding: 5px; 
-z-index: 999999 !important; 
-right: 10px; 
-display: block;
+    background: #f1f1f1!important;
+    border: 2px solid #c8c8c8; 
+    border-radius: 10px 10px 0px 0px; 
+    position: fixed; 
+    bottom: -2px; 
+    width: 120px; 
+    font-weight: bold;  
+    text-align: center; 
+    font-family: Calibri; 
+    font-size: 12px; 
+    cursor: pointer; 
+    padding: 5px; 
+    z-index: 999999 !important; 
+    right: 10px; 
+    display: block;
 }
 #ScrollToTop a{
     text-decoration: none;
@@ -359,7 +359,7 @@ display: block;
 
 /*Section*/
 .quarter{width:25%;
-        float:left;
+         float:left;
 }
 .section{
     margin-top:16px!important;
@@ -435,6 +435,12 @@ th, td {
 }
 
 
+
+/*TEST*/
+
+
+/*END TEST*/
+
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 700px) {#main {margin-left: 0} .medium{margin-left:80px;}.quarter{float: none;}.row{width: auto;}}
 @media screen and (max-width:990px){.sidenav.collapse{display:none}.main{margin-left:0!important;margin-right:0!important}}
@@ -442,10 +448,44 @@ th, td {
 @media (min-width:990px){.hide-large{display:none!important}}
 @media (max-width:700px){.hide-small{display:none!important}}
 @media (max-width:990px) and (min-width:700px){.hide-medium{display:none!important}}
-@media screen and (max-width:700px){.sidenav li:not(.opennav){float:none;width:100%!important}sidenav li.right{float:none!important}}
+@media screen and (max-width:700px){
+    .sidenav li:not(.opennav){
+        float:none;
+        width:100%!important}
+    .sidenav li.right{
+        float:none!important
+}
 @media screen and (max-width:700px){ .dropnav-hover .dropnav-content,.sidenav .dropnav-click .dropnav-content,.dropnav-hover .dropnav-content{position:relative}}	
 @media screen and (max-width:700px){.sidenav{text-align:center}}
-@media screen and (max-width:1260px){.content{max-width: 70%;}}
-@media screen and (min-width:1400px){.insta{float: right; margin-right: -200px; margin-top: 200px;}}
-@media screen and (max-width:700px){.slimimage img{width: 110%;}.button{padding:0;text-decoration:none;box-shadow: 0;border: none;border-radius: 0;margin:30px;display: table;}}
-@media screen and (max-width:700px){.row{display: table;text-align: center;}.quarter{padding-right: 10px;margin: 5px; display: table-row-group;}.half{width: 100%;}.center{width: 100%;}.content{max-width: 94%;}}
+@media screen and (max-width:1260px){
+    .content{max-width: 70%;
+    }
+}
+@media screen and (min-width:1400px){
+    .insta{float: right;
+           margin-right: -200px;
+           margin-top: 200px;
+    }
+}
+@media screen and (max-width:700px){
+    .slimimage img{
+        width: 110%;
+    }
+    .button{
+        padding:0;
+        text-decoration:none;
+        box-shadow: 0;
+        border: none;
+        border-radius: 0;
+        margin:30px;
+        display: table;
+    }
+}
+@media screen and (max-width:700px){
+    .row{display: table;text-align: center;}
+    .quarter{padding-right: 10px;margin: 5px; display: table-row-group;}
+    .half{width: 100%;}
+    .center{width: 100%;}
+    .content{max-width: 94%;}
+}
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="nb">
+	<head>
+		<title>Miko</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body class="white">
+		<!-- Icon Bar (Sidenav - hidden on small screens) -->
+                <nav class="sidenav center small hide-small roundpicnav ">
+                  <!-- Avatar image in top left corner -->
+		  <img src="bilder/miko2.png" alt="bilde av hunden">
+		  <a class="padding-large hover-black" href="index.html">
+			<i class="fa fa-home xxlarge"></i>
+			<p>HJEM</p>
+		  </a>
+		  <a class="padding-large hover-black" href="rase.html">
+			<i class="fa fa-user xxlarge"></i>
+                        <p>JAPANSK<br> SPISSHUND</p>
+		  </a>
+		  <a class="padding-large hover-black" href="galleri.html">
+			<i class="fa fa-camera-retro xxlarge"></i>
+			<p>GALLERI</p>
+		  </a>
+		   <a class="padding-large hover-black" href="eier.html">
+			<i class="fa fa-users xxlarge"></i>
+			<p>EIER</p>
+		  </a>
+                  <a class="padding-large hover-black" href="events.html">
+			<i class="fa fa-calendar xxlarge"></i>
+			<p>EVENTS</p>
+		  </a>
+		  <a class="padding-large hover-black" href="kontaktmeg.html">
+			<i class="fa fa-envelope xxlarge"></i>
+			<p>KONTAKT MEG</p>
+		  </a>
+		</nav>
+
+		<!-- Navbar on small screens (Hidden on medium and large screens) -->
+                <ul class="hide-large hide-medium">  
+                        <li class="dropnav">
+                            <a href="javascript:void(0)" class="menybtn"><i class="fa fa-bars xxlarge"> </i></a>
+                            <div class="dropnav-content">
+                            <a href="index.html">Hjem</a>
+                            <a href="rase.html">Japansk Spisshund</a>
+                            <a href="galleri.html">Galleri</a>
+                            <a href="eier.html">Eier</a>
+                            <a href="kontaktmeg.html">Kontakt</a>
+                            <a href="events.html">Events</a>
+                            </div>
+                        </li>
+		</ul>
+
+                <!-- Portfolio Section -->
+		<section class="padding-64 content" id="photos">
+                    <h2 class="text-dark-gray">Mitt galleri</h2>
+                    <div class="padding-32"><a href="https://www.instagram.com/mikospitz/" target="blank" class="insta text-purple hover-text-purple"> <img src="bilder/instagram.png" alt="Instagram">mikospitz</a>
+                    </div>
+                <!-- Grid for photos -->
+                    <article class="row-padding nobottomborder">
+                        <h2>Nye Bilder</h2>
+                        <div class="half roundpic">
+                                <img src="bilder/fjelltur.jpg"  alt="bilde av fjelltur">
+                                <img src="bilder/strandtur.jpg"  alt="bilde av strandtur">
+                                <img src="bilder/mikoogsamojed.jpg"  alt="bilde av hunden">
+                                <img src="bilder/sofachill.jpg"  alt="bilde av hunden i sofa">
+                                <img src="bilder/sol.jpg"  alt="bilde av hunden i sol">
+                                <img src="bilder/miko6.png"  alt="bilde av hunden">
+
+                        </div>
+
+                        <div class="half roundpic">
+                                <img src="bilder/tur.jpg" alt="bilde av hunden">
+                                <img src="bilder/miko3.jpg"  alt="bilde av hunden">
+                                <img src="bilder/stianogmiko.jpg"  alt="bilde av Stian og hunden">
+                                <img src="bilder/stue2.jpg"  alt="bilde av hunden">
+                                <img src="bilder/stue1.jpg"  alt="bilde av hunden">
+                                <img src="bilder/stue3.jpg"  alt="bilde av hunden">
+                        </div>
+                        
+                    </article>
+                    <article class="row-padding clear nobottomborder">
+                        <h2 class="clear">Valp</h2>
+                        <div class="half roundpic clear">                                
+                                <img src="bilder/valp3.png"  alt="bilde av hunden">
+                                <img src="bilder/valp6.jpg"  alt="bilde av hunden">
+                                <img src="bilder/valp2.jpg"  alt="bilde av hunden">
+                        </div>
+
+                        <div class="half roundpic">                                
+                                <img src="bilder/valp4.png"  alt="bilde av hunden">
+                                <img src="bilder/valp5.jpg"  alt="bilde av hunden">
+                                <img src="bilder/valp1.png" alt="bilde av hunden">
+                        </div>
+
+                    </article>
+                <!-- End photo grid -->
+		<!-- End Portfolio Section -->
+                    <div id="ScrollToTop"><a href="#">Tilbake til toppen!</a></div>
+                </section>
+                <!-- Footer -->
+                <footer class="content padding-64 text-grey xlarge clear">
+			<i class="fa fa-facebook-official hover-text-indigo"></i>
+			<a href="https://www.instagram.com/mikospitz/" target="blank"><i class="fa fa-instagram hover-text-purple"></i></a>
+			<i class="fa fa-snapchat hover-text-yellow"></i>
+			<i class="fa fa-pinterest-p hover-text-red"></i>
+                        <p class="footertext">Laget av: Stian Natland<br><br>© innholdet er beskyttet i hht til norsk lov om opphavsrett, Åndsverkloven.<br>
+                
+                <!--Javascript that shows last time the site was edited.-->    
+                    <script language="javascript"> 
+                        months = ['Januar', 'Februar', 'Mars', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Desember']; 
+                        var d=new Date();
+                        var weekday=new Array(7); weekday=['Søndag','Mandag','Tirsdag','Onsdag','Torsdag','Fredag','Lørdag'];
+                        var d = new Date(); 
+                        (d.getFullYear());
+                        var theDate = new Date(document.lastModified); 
+                        theDate.setTime((theDate.getTime()+(60*60)) ) 
+                        with (theDate) { 
+                        document.write("<i>Oppdatert: "+weekday[getDay()]+' '+getDate()+' '+months[getMonth()]+' '+d.getFullYear()+"</i>");
+                        } 
+                    </script>
+                    </p> 
+		<!-- End footer -->
+		</footer>
+	</body>
+</html>
